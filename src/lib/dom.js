@@ -1,7 +1,5 @@
-const win = window; // eslint-disable-line no-undef
-const doc = win.document;
-const dpr = win.devicePixelRatio || 1;
-const create = name => doc.createElement(name);
+const getDpr = () => window.devicePixelRatio || 1; // eslint-disable-line no-undef
+const create = name => window.document.createElement(name); // eslint-disable-line no-undef
 const getAttr = (el, key) => el.getAttribute(key);
 const setAttr = (el, key, value) => el.setAttribute(key, value);
 
@@ -28,5 +26,5 @@ const canvasToImg = canvas => {
 module.exports = {
     createCanvas,
     canvasToImg,
-    dpr
+    getDpr
 };
