@@ -1,6 +1,6 @@
 {
   "name": "kjua-5long",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Dynamically generated QR codes for modern browsers.",
   "homepage": "https://larsjung.de/kjua/",
   "bugs": "https://github.com/lrsjng/kjua/issues",
